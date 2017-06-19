@@ -155,18 +155,70 @@ body {
       background: green;
       color: #FFFFFF;
       border: 0; }
-  .main .default {
+  .main .activity {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 880px;
-    height: 42px;
-    background: #CCCCCC;
-    line-height: 42px;
-    text-align: center;
-    border: 1px solid #C0C0C0;
-    margin-top: 20px; }
-    .main .default li {
-      width: 120px; }
-    .main .default li:hover {
-      background: #FFFFFF; }
+    justify-content: space-between; }
+    .main .activity .left {
+      width: 880px; }
+    .main .activity .reputation {
+      width: 268px;
+      border: 1px solid #C0C0C0;
+      margin-top: 20px;
+      margin-left: 40px; }
+      .main .activity .reputation h3 {
+        text-align: center;
+        background: #CCCCCC;
+        line-height: 42px;
+        margin-top: 0; }
+      .main .activity .reputation dl {
+        width: 268px;
+        border-bottom: 1px solid #C0C0C0;
+        height: 93px; }
+      .main .activity .reputation dt {
+        border-radius: 100%;
+        border: 1px solid red;
+        float: left;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-top: 15px; }
+      .main .activity .reputation dd {
+        float: left;
+        margin-left: 30px; }
+
+.default {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 880px;
+  height: 42px;
+  background: #CCCCCC;
+  line-height: 42px;
+  text-align: center;
+  border: 1px solid #C0C0C0;
+  margin-top: 20px; }
+  .default li {
+    width: 120px; }
+  .default li:hover {
+    background: #FFFFFF; }
+
+.store {
+  width: 840px; }
+  .store dl {
+    height: 150px;
+    line-height: 40px;
+    border-bottom: 1px solid #cccccc; }
+  .store dt {
+    float: left; }
+  .store dd {
+    float: left;
+    margin-left: 20px; }
+    .store dd span {
+      color: green; }
+  .store .site p {
+    float: left; }
+  .store .site a {
+    float: left;
+    margin-left: 200px;
+    color: #000000; }
