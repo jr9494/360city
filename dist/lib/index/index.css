@@ -1,0 +1,58 @@
+.shop{
+	width:0.64rem;border:1px solid #000000;margin:0 auto;
+}
+.meal{
+	width:0.64rem;border-bottom:1px solid #CCCCCC;
+}
+.meal li{
+	width:100%;display:flex;margin-top:10px;border-bottom:1px solid #CCCCCC;position:relative;
+}
+.meal img{
+	height:100px;margin-bottom:10px;
+}
+.meal-eat{
+	margin-left:160px;
+}
+.meal-eat a{
+	position:absolute;right:10%;top:15px;color:paleturquoise
+}
+.meal-eat p{
+	font-weight:bold;
+}
+.shop{
+	width:0.64rem;display:none;margin:auto;
+}
+.gouwu{
+	background:palevioletred;
+}
+.gouwu-top{
+	width:0.64rem;height:30px;color:paleturquoise;border-bottom:1px solid #CCCCCC;
+}
+.gouwu-top h3{
+	margin-top:10px;margin-bottom:10px;
+}
+.lian input{
+	width:300px;height:30px;margin-left:30px;margin-top:10px;
+}
+.gouwu-fot{
+	display:flex;padding-left:20%;margin-top:10px;border-top:1px solid #CCCCCC;width:0.64rem;
+}
+.geren{
+	background: magenta;
+}
+.geren span{
+	color:red;
+}
+.geren dl{
+	border-bottom:1px solid #CCCCCC;
+}
+.datou{
+	background: #0000FF;
+}
+.foot ul{
+	display:flex;justify-content: space-around;width:0.64rem;margin:auto;background: #CCCCCC;border-top:1px solid #000000;
+}
+.foot{
+	width:1rem;margin:auto;position:fixed;bottom:0;
+}
+

@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+.top{
+    width:100%;
+    .affix{
+        height:30px;
+        position: static;
+        min-height:0;
+        margin-bottom:0;
+        .header{
+            width:90%;
+            margin:auto;
+            padding:5px 0 5px 0;
+            display:flex;
+            justify-content: space-between;
+            .top-left{
+                display:flex;
+                float:left;
+                width:20%;
+                justify-content:space-around;
+            }
+            .top-right{
+                display:flex;
+                float:left;
+                margin-left:20%;
+                width:60%;
+                justify-content:space-around;
+                p{
+                    border-right: 1px solid #ccc;padding:0px 10px 0px 0px;
+                }
+            }
+        }
+    }
+    
+}
+.top-t{
+    display:flex;justify-content:space-between;width:90%;margin:0 auto;
+    img{
+        position:relative;height:80px;
+    }
+    .acce{
+        padding:20px 0 20px 0;
+    }
+}
+.swiper-container{
+    width:90%;margin:auto;margin-top:0;position:relative;
+    img{
+        height:340px;
+    }
+   
+}
+.phone{
+    background:rgba(0,0,0,0.7);
+    position:absolute;left:60px;top:110px;
+    width:235px;
+    height:340px;
+    z-index:99;
+    color:#FFFFFF;
+    .pad{
+        height:84px;width:100%;
+        border-bottom:1px solid #9A9895;
+        display:flex;justify-content:space-around;
+        .pic1-1{
+            width:30px;
+        }
+        p{
+            line-height:84px;
+            span{
+                margin-left:20px;
+            }
+        }
+    }
+    .pad:hover{
+        background:#00BD70;
+    }
+    .computer:hover{
+        background:#00BD70;
+    }
+    .Samsung:hover{
+        background:#00BD70;
+    }
+    .used:hover{
+        background:#00BD70;
+    }
+    .computer{
+        height:84px;width:100%;
+        border-bottom:1px solid #9A9895;
+        display:flex;justify-content:space-around;
+        .pic1-1{
+            width:30px;
+        }
+        p{
+            line-height:84px;
+            span{
+                margin-left:20px;
+            }
+        }
+    }
+    .Samsung{
+        height:84px;width:100%;
+        border-bottom:1px solid #9A9895;
+        display:flex;justify-content:space-around;
+        .pic1-1{
+            width:30px;
+        }
+        p{
+            line-height:84px;
+        }
+        span{
+                margin-left:20px;
+            }
+    }
+    .used{
+        height:84px;width:100%;
+        display:flex;justify-content:space-around;
+        .pic1-1{
+            width:30px;
+        }
+        p{
+            line-height:84px;
+        }
+        span{
+                margin-left:20px;
+            }
+    }
+    .masking{
+        
+    }    
+}
+.phone-screen{
+    background:#CCCCCC;
+    
+    ul{
+        width:80%;display:flex;list-style:none;
+    }
+    .hui-shou{
+        width:80%;display:flex;justify-content: space-between;margin:auto;
+        p{
+            padding:20px 0 10px 0;
+        }    
+    }
+    .free{
+        width:80%;display:flex;margin-left:60px;
+//      margin: 4%;
+        img{
+            width:19%;
+        }
+    }
+}
+.main{
+    width:90%;margin:auto;
+    .form{
+        justify-content:space-around;
+        select{
+            width:142px;height:42px;
+        }
+        input{
+            width:468px;height:42px;
+        }
+        button{
+            width:120px;height:42px;margin-left:-4px;background:green;color:#FFFFFF;border:0;
+        }
+    }
+    .default{
+        display:flex;justify-content: space-between;list-style:none;width:880px;height:42px;background:#CCCCCC;
+        line-height:42px;text-align:center;border:1px solid #C0C0C0;margin-top:20px;
+        li{
+            width:120px;
+        }
+        li:hover{
+            background:#FFFFFF;
+        }
+    }
+}

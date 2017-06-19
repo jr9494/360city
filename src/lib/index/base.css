@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size:14px;
+    font-family:"Microsoft YaHei","SansSerif";
+    color:#000;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+ul{
+    list-style:none;
+}
+input,textarea{
+    outline:none;
+    border:none;
+    resize:none;
+}
+.clearfix:before,
+.learfix:after{
+    content:"";
+    height:0;
+    visibility:hidden;
+    line-height:0;
+    clear:both;
+}
